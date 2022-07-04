@@ -1,0 +1,16 @@
+{     "model": [
+            "access_cm2", "access_esm1_5", "bcc_csm2_mr",
+            "canesm5", "cnrm_cm6_1", "cnrm_cm6_1_hr",
+            "cnrm_esm2_1", "ec_earth3", "ec_earth3_veg",
+            "fgoals_g3", "gfdl_cm4", "gfdl_esm4",
+            "hadgem3_gc31_ll", "hadgem3_gc31_mm", "inm_cm4_8",
+            "inm_cm5_0", "kace_1_0_g", "kiost_esm",
+            "miroc_es2l", "miroc6", "mpi_esm1_2_hr",
+            "mpi_esm1_2_lr", "mri_esm2_0", "nesm3",
+            "noresm2_lm", "noresm2_mm", "ukesm1_0_ll"
+        ],
+	"variable": [
+            "diurnal_temperature_range", "maximum_1_day_precipitation", "maximum_5_day_precipitation",
+            "maximum_value_of_daily_maximum_temperature", "maximum_value_of_daily_minimum_temperature", "minimum_value_of_daily_maximum_temperature",
+            "minimum_value_of_daily_minimum_temperature"
+        ]}

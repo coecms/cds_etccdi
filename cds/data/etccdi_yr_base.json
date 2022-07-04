@@ -1,0 +1,14 @@
+{"model": [
+            "access_cm2", "access_esm1_5", "bcc_csm2_mr",
+            "canesm5", "ec_earth3", "ec_earth3_veg",
+            "gfdl_cm4", "gfdl_esm4", "inm_cm4_8",
+            "inm_cm5_0", "kace_1_0_g", "kiost_esm",
+            "miroc6", "mpi_esm1_2_hr", "mpi_esm1_2_lr",
+            "mri_esm2_0", "nesm3", "noresm2_lm",
+            "noresm2_mm"
+        ],
+ "variable": [
+            "cold_days", "cold_nights", "cold_spell_duration_index",
+            "extremely_wet_day_precipitation", "very_wet_day_precipitation", "warm_days",
+            "warm_nights", "warm_spell_duration_index"
+        ]}

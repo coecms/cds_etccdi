@@ -1,0 +1,6 @@
+{"heat_index" : "HI",
+ "humidex" : "Humidex",
+ "universal_thermal_climate_index" : "UTCI",
+ "wet_bulb_globe_temperature_index" : "WBGT",
+ "wet_bulb_temperature_index" : "WBT"
+}

@@ -1,0 +1,26 @@
+{
+    "dsid": "sis-extreme-indices-cmip6",
+    "format": "tgz",
+    "version": "1.0",
+    "product_type": ["bias_adj", "raw"],
+    "variable": ["heat_index", "humidex", "universal_thermal_climate_index",
+            "wet_bulb_globe_temperature_index", "wet_bulb_temperature_index"],
+    "model": [
+            "access_cm2", "access_esm1_5", "canesm5",
+            "cnrm_cm6_1", "cnrm_cm6_1_hr", "cnrm_esm2_1",
+            "ec_earth3", "ec_earth3_veg", "fgoals_g3",
+            "gfdl_cm4", "gfdl_esm4", "hadgem3_gc31_ll",
+            "hadgem3_gc31_mm", "inm_cm4_8", "inm_cm5_0",
+            "kace_1_0_g", "kiost_esm", "miroc_es2l",
+            "mpi_esm1_2_hr", "mpi_esm1_2_lr", "mri_esm2_0",
+            "noresm2_lm", "noresm2_mm", "ukesm1_0_ll"
+        ],
+    "ensemble_member": ["r1i1p1f1", "r1i1p1f2", "r1i1p1f3"],
+    "experiment": ["historical", "ssp1_2_6", "ssp2_4_5",
+            "ssp3_7_0", "ssp5_8_5"],
+    "temporal_aggregation": "daily",
+    "period_his": ["19510101-20101230", "19510101-20101231",
+	    "19510101-20141230", "19510101-20141231"],
+    "period_ssp": ["20110101-21001230", "20110101-21001231",
+	    "20150101-21001230", "20150101-21001231"]
+}

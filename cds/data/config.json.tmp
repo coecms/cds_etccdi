@@ -1,0 +1,19 @@
+{
+    "nthreads": 8,
+    "datadir": ".....",
+    "staging": ".....",
+    "logdir": "../log",
+    "requestdir": "....../cds/Requests/",
+    "getcmd": "curl -o",
+    "resumewget": "wget -c -O",
+    "resumecmd": "curl -C - -o",
+    "retry": 5,
+    "qccmd": "ncdump -h",
+    "nccmd": "nccopy -k 4 -d5 -s",
+    "untar": "tar -xf",
+    "concat": "cdo --history -L -s -f nc4c -z zip_5 cat -setreftime,1900-01-01,00:00:00",
+    "db": "..../era5.sqlite",
+    "slowips": [  ],
+    "altips": [  ],
+    "users": [ "1", "2", "3" ]
+}
