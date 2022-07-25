@@ -1,8 +1,10 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6897993.svg)](https://doi.org/10.5281/zenodo.6897993)
+
 # cds_etccdi
 
-The cds_etccdi python code is an interface to the CDS api to download the `Climate extreme indices and heat stress indicators derived from CMIP6 global climate projections`
+The cds_etccdi python code is an interface to the CDS api to download the [`Climate extreme indices and heat stress indicators derived from CMIP6 global climate projections`](https://cds.climate.copernicus.eu/#!/home](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-extreme-indices-cmip6?tab=overview)
 ( CICERO_ETCCDI ) dataset from the Copernicus Climate Data Store (CDS).
-It uses a modified version of the CDS api which stops after a request has been submitted and executed. The target download url is saved and downloads are run in parallel by the code using the Pool multiprocessing module. As well as managing the downloads the code gets all the necessary information on available variables from local json configuration files. <br>
+It uses a modified version of the [CDS api](https://cds.climate.copernicus.eu/api-how-to) which stops after a request has been submitted and executed. The target download url is saved and downloads are run in parallel by the code using the Pool multiprocessing module. As well as managing the downloads the code gets all the necessary information on available variables from local json configuration files. <br>
 Before submitting a request the code will check that the file is not already available locally by quering a sqlite database. After downloading new files it is important to update the database to avoid downloading twice the same file. Files are first downloaded in a staging area, as the files come as archives, then `untarred` and moved to the final destination.
 
 ## Getting started
